@@ -21,7 +21,7 @@ body {
 
 .container {
   width: 1158px;
-  margin-left: 120px;
+  margin-left: 156px;
   border: 1px solid var(--iris);
 }
 
@@ -64,15 +64,13 @@ ol {
 
 .top-line {
   width: 1158px;
-  height: 72px;
   flex-shrink: 1;
   border-bottom: 1px solid var(--cornflower);
 }
 
 .logo {
   width: 115px;
-  height: 21px;
-  margin-top: 25px;
+  margin-top: 25.5px;
   margin-right: 36px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -93,7 +91,6 @@ ol {
 }
 
 .text-link {
-  height: 24px;
   margin-left: 40px;
   font-weight: 500;
   font-size: 16px;
@@ -109,11 +106,11 @@ ol {
 
 .contacts {
   margin-top: 24px;
+  margin-bottom: 24px;
   font-style: normal;
 }
 
 .contact-box {
-  height: 24px;
   margin-left: 40px;
   font-size: 16px;
   line-height: 1.5;
@@ -132,10 +129,15 @@ ol {
 =============================================
 */
 .title-box {
+  width: 1158px;
+  padding-top: 188px;
+  padding-bottom: 188px;
+  margin-bottom: 120px;
   background: var(--navy-blue);
 }
 
 .main-title {
+  margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -144,8 +146,8 @@ ol {
 }
 
 .main-button {
-  margin-left: auto;
-  margin-right: auto;
+  padding: 16px 32px 16px 32px;
+  margin-left: 484px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -167,9 +169,16 @@ ol {
 =============================================
 */
 .main-advantages-section {
+  margin-top: 120px;
+}
+
+.advantages-card {
+  width: 264px;
+  margin-right: 24px;
 }
 
 .advantages-title {
+  margin-top: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -199,20 +208,34 @@ ol {
 =============================================
 */
 
+.opportunities-card {
+  margin-top: 72px;
+  margin-right: 24px;
+  margin-bottom: 120px;
+}
+
 /* 
 =============================================
    4. Our Team
 =============================================
 */
 .main-section-team {
+  padding-top: 120px;
+  padding-bottom: 120px;
   background-color: var(--cloud);
 }
 
 .card {
+  padding-bottom: 32px;
+  margin-top: 72px;
+  margin-right: 24px;
+  text-align: center;
   background-color: var(--white);
 }
 
 .card-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -268,6 +291,11 @@ ol {
    Footer
 =============================================
 */
+.footer-box {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+
 .logo-studio-footer {
   color: var(--cloud);
 }
@@ -277,6 +305,8 @@ ol {
 }
 
 .paragraf-box {
+  width: 264px;
+  margin-top: 17.5px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--cloud);
