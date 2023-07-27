@@ -291,23 +291,19 @@ ol {
 }
 
 .card-of-project {
-  box-sizing: border-box;
-  width: 358px;
-  flex-shrink: 0;
-  padding-bottom: 32px;
   margin-right: 24px;
   margin-bottom: 48px;
-  border: 1px solid var(--cornflower);
 }
 
-.portfolio-img {
-  width: 358px;
+.description-card {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: 1px solid var(--cornflower);
 }
 
 .filter-button-box {
 }
 .card-project-name {
-  margin-top: 32px;
   margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
