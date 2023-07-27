@@ -55,6 +55,11 @@ ol {
   padding-left: 0;
 }
 
+.section {
+  padding-bottom: 120px;
+  margin: 0;
+}
+
 /*
 =========================================
       Header
@@ -283,13 +288,20 @@ ol {
 
 .project-cards {
   flex-wrap: wrap;
-  margin-bottom: 120px;
 }
 
 .card-of-project {
+  box-sizing: border-box;
+  width: 358px;
+  flex-shrink: 0;
   padding-bottom: 32px;
   margin-right: 24px;
   margin-bottom: 48px;
+  border: 1px solid var(--cornflower);
+}
+
+.portfolio-img {
+  width: 358px;
 }
 
 .filter-button-box {
