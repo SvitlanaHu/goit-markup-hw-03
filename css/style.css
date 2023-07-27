@@ -1,0 +1,225 @@
+:root {
+  --slate: #434455;
+  --navy-blue: #2e2f42;
+  --cornflower: #e7e9fc;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --white: #fff;
+  --cloud: #f4f4fd;
+}
+
+/*
+=========================================
+      Base styles
+=========================================
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  color: var(--slate);
+  background: var(--white);
+}
+
+.link {
+  text-decoration: none;
+}
+
+.list {
+  list-style: none;
+}
+
+/*
+=========================================
+      Header
+=========================================
+*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--iris);
+}
+
+.logo-studio {
+  color: var(--navy-blue);
+}
+
+.text-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.text-link:hover,
+.text-link:focus {
+  color: #404bbf;
+}
+
+.contacts {
+  font-style: normal;
+}
+
+.contact-box {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.contact-box:hover,
+.contact-box:focus {
+  color: var(--ocean);
+}
+
+/* Main
+=============================================
+   1. Effective Solutions for Your Business
+=============================================
+*/
+.title-box {
+  background: var(--navy-blue);
+}
+
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.main-button {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+}
+
+.main-button:hover,
+.main-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* 
+=============================================
+   2. Advantages
+=============================================
+*/
+.main-advantages-section {
+}
+
+.advantages-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.advantages-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+.opportunities-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
+/* 
+=============================================
+   3. What are we doing
+=============================================
+*/
+
+/* 
+=============================================
+   4. Our Team
+=============================================
+*/
+.main-section-team {
+  background-color: #f4f4fd;
+}
+
+.card {
+  background-color: #ffffff;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+.card-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
+}
+
+/* 
+=============================================
+   Portfolio
+=============================================
+*/
+.portfolio-button {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--iris);
+  background-color: var(--cloud);
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  color: #fff;
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+.card-project-name {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--navy-blue);
+}
+
+/* 
+=============================================
+   Footer
+=============================================
+*/
+.logo-studio-footer {
+  color: var(--cloud, #f4f4fd);
+}
+
+.footer-box {
+  background: var(--navy-blue);
+}
+
+.paragraf-box {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--cloud);
+}
