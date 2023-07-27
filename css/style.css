@@ -21,7 +21,8 @@ body {
 
 .container {
   width: 1158px;
-  margin-left: 156px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .link {
@@ -56,8 +57,25 @@ ol {
 }
 
 .section {
-  padding-bottom: 120px;
   margin: 0;
+}
+
+img {
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /*
@@ -67,15 +85,17 @@ ol {
 */
 
 .top-line {
-  width: 1158px;
-  flex-shrink: 1;
   border-bottom: 1px solid var(--cornflower);
+}
+
+.nav {
+  margin-right: 245px;
+  align-items: center;
 }
 
 .logo {
   width: 115px;
-  margin-top: 25.5px;
-  margin-right: 36px;
+  margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -90,17 +110,21 @@ ol {
 }
 
 .navigation-box {
-  margin-top: 24px;
-  margin-right: 308px;
+  padding: 24px 0;
 }
 
 .text-link {
-  margin-left: 40px;
+  margin-right: 40px;
+  padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--navy-blue);
+}
+
+.liend {
+  margin-right: 0;
 }
 
 .text-link:hover,
@@ -132,15 +156,19 @@ ol {
    1. Effective Solutions for Your Business
 =============================================
 */
-.title-box {
-  width: 1158px;
-  padding-top: 188px;
-  padding-bottom: 188px;
-  margin-bottom: 120px;
+.title-background-box {
+  padding: 188px 0;
   background: var(--navy-blue);
+}
+.title-box {
+  width: 1358px;
+  padding: 188px auto;
 }
 
 .main-title {
+  max-width: 496px;
+  margin-right: auto;
+  margin-left: auto;
   margin-bottom: 48px;
   font-size: 56px;
   line-height: 1.07;
@@ -150,15 +178,21 @@ ol {
 }
 
 .main-button {
-  padding: 16px 32px 16px 32px;
-  margin-left: 484px;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  margin-right: auto;
+  margin-left: auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: var(--white);
+  border: none;
   background-color: var(--iris);
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .main-button:hover,
@@ -173,7 +207,7 @@ ol {
 =============================================
 */
 .main-advantages-section {
-  margin-top: 120px;
+  padding: 120px 0;
 }
 
 .advantages-card {
@@ -211,11 +245,13 @@ ol {
    3. What are we doing
 =============================================
 */
+.main-opportunities-section {
+  padding-bottom: 120px;
+}
 
 .opportunities-card {
   margin-top: 72px;
   margin-right: 24px;
-  margin-bottom: 120px;
 }
 
 /* 
@@ -230,9 +266,9 @@ ol {
 }
 
 .card {
-  padding-bottom: 32px;
   margin-top: 72px;
   margin-right: 24px;
+  padding-bottom: 32px;
   text-align: center;
   background-color: var(--white);
 }
@@ -266,8 +302,8 @@ ol {
 }
 
 .portfolio-button {
-  padding: 12px 24px 12px 24px;
   margin-right: 24px;
+  padding: 12px 24px 12px 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -291,8 +327,8 @@ ol {
 }
 
 .card-of-project {
-  margin-right: 24px;
   margin-bottom: 48px;
+  gap: 24px;
 }
 
 .description-card {
@@ -318,8 +354,7 @@ ol {
 =============================================
 */
 .footer-box {
-  padding-top: 101.5px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .logo-studio-footer {
