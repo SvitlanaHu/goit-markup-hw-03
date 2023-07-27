@@ -19,6 +19,12 @@ body {
   background: var(--white);
 }
 
+.container {
+  width: 1158px;
+  margin-left: 120px;
+  border: 1px solid var(--iris);
+}
+
 .link {
   text-decoration: none;
 }
@@ -55,7 +61,19 @@ ol {
       Header
 =========================================
 */
+
+.top-line {
+  width: 1158px;
+  height: 72px;
+  flex-shrink: 1;
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .logo {
+  width: 115px;
+  height: 21px;
+  margin-top: 25px;
+  margin-right: 36px;
   font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
@@ -69,7 +87,14 @@ ol {
   color: var(--navy-blue);
 }
 
+.navigation-box {
+  margin-top: 24px;
+  margin-right: 308px;
+}
+
 .text-link {
+  height: 24px;
+  margin-left: 40px;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -83,10 +108,13 @@ ol {
 }
 
 .contacts {
+  margin-top: 24px;
   font-style: normal;
 }
 
 .contact-box {
+  height: 24px;
+  margin-left: 40px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -116,6 +144,8 @@ ol {
 }
 
 .main-button {
+  margin-left: auto;
+  margin-right: auto;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -219,8 +249,11 @@ ol {
   cursor: pointer;
 }
 
-.projects-box {
-  display: inline;
+.project-card {
+  flex-wrap: wrap;
+}
+
+.filter-button-box {
 }
 .card-project-name {
   font-size: 20px;
