@@ -220,6 +220,9 @@ ol {
   cursor: pointer;
 }
 
+.projects-box {
+  display: inline;
+}
 .card-project-name {
   font-size: 20px;
   font-weight: 500;
