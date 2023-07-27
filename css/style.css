@@ -80,7 +80,7 @@ ol {
 
 .text-link:hover,
 .text-link:focus {
-  color: #404bbf;
+  color: var(--ocean);
 }
 
 .contacts {
@@ -113,22 +113,22 @@ ol {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--white);
 }
 
 .main-button {
-  background-color: #4d5ae5;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--white);
+  background-color: var(--iris);
 }
 
 .main-button:hover,
 .main-button:focus {
-  background-color: #404bbf;
+  background-color: var(--ocean);
   cursor: pointer;
 }
 
@@ -176,11 +176,11 @@ ol {
 =============================================
 */
 .main-section-team {
-  background-color: #f4f4fd;
+  background-color: var(--cloud);
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: var(--white);
 }
 
 .card-name {
@@ -215,8 +215,8 @@ ol {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  color: #fff;
-  background-color: #404bbf;
+  color: var(--white);
+  background-color: var(--ocean);
   cursor: pointer;
 }
 
@@ -237,7 +237,7 @@ ol {
 =============================================
 */
 .logo-studio-footer {
-  color: var(--cloud, #f4f4fd);
+  color: var(--cloud);
 }
 
 .footer-box {
