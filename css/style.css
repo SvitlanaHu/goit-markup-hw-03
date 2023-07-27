@@ -85,11 +85,11 @@ img {
 */
 
 .top-line {
-  border-bottom: 1px solid var(--cornflower);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .nav {
-  margin-right: 245px;
+  margin-right: 332px;
   align-items: center;
 }
 
@@ -111,10 +111,10 @@ img {
 
 .navigation-box {
   padding: 24px 0;
+  gap: 40px;
 }
 
 .text-link {
-  margin-right: 40px;
   padding: 24px 0;
   font-weight: 500;
   font-size: 16px;
@@ -138,8 +138,11 @@ img {
   font-style: normal;
 }
 
+.contact-nav {
+  gap: 40px;
+}
+
 .contact-box {
-  margin-left: 40px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -210,13 +213,16 @@ img {
   padding: 120px 0;
 }
 
+.advantages-gap {
+  gap: 24px;
+}
+
 .advantages-card {
-  width: 264px;
-  margin-right: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .advantages-title {
-  margin-top: 8px;
+  margin-bottom: 8px;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -231,15 +237,6 @@ img {
   color: var(--slate);
 }
 
-.opportunities-title {
-  font-size: 36px;
-  line-height: 1.11;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: var(--navy-blue);
-}
-
 /* 
 =============================================
    3. What are we doing
@@ -249,8 +246,17 @@ img {
   padding-bottom: 120px;
 }
 
+.opportunities-title {
+  margin-bottom: 72px;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: var(--navy-blue);
+}
+
 .opportunities-card {
-  margin-top: 72px;
   margin-right: 24px;
 }
 
