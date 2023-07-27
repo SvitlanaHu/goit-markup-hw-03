@@ -22,7 +22,6 @@ body {
 .container {
   width: 1158px;
   margin-left: 156px;
-  border: 1px solid var(--iris);
 }
 
 .link {
@@ -255,7 +254,15 @@ ol {
    Portfolio
 =============================================
 */
+.filter-button-box {
+  padding-top: 96px;
+  padding-bottom: 72px;
+  padding-left: 271px;
+}
+
 .portfolio-button {
+  padding: 12px 24px 12px 24px;
+  margin-right: 24px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -263,6 +270,8 @@ ol {
   letter-spacing: 0.04em;
   color: var(--iris);
   background-color: var(--cloud);
+  border-radius: 4px;
+  border: 1px solid var(--cornflower);
 }
 
 .portfolio-button:hover,
@@ -272,13 +281,22 @@ ol {
   cursor: pointer;
 }
 
-.project-card {
+.project-cards {
   flex-wrap: wrap;
+  margin-bottom: 120px;
+}
+
+.card-of-project {
+  padding-bottom: 32px;
+  margin-right: 24px;
+  margin-bottom: 48px;
 }
 
 .filter-button-box {
 }
 .card-project-name {
+  margin-top: 32px;
+  margin-bottom: 8px;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
