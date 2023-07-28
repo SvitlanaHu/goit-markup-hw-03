@@ -338,9 +338,13 @@ img {
   row-gap: 48px;
 }
 
+.card-of-project {
+}
+
 .description-project-card {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
+  border-top: none;
 }
 
 .filter-button-box {
